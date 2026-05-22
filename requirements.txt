@@ -1,0 +1,14 @@
+psycopg2-binary
+pgvector
+python-dotenv
+numpy
+typer
+openai
+psycopg2
+tenacity
+rich
+fastapi
+uvicorn
+httpx
+pytest
+pydantic

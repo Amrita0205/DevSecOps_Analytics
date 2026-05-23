@@ -1,0 +1,9 @@
+category,severity,insight_date,raw_text,tags
+code_quality,high,2024-11-15,"SQL injection vulnerability detected in UserController.java line 42. Raw query concatenation without parameterized queries.","sql-injection,java,controller"
+code_quality,medium,2024-11-15,"Cyclomatic complexity of 25 in PaymentService.processPayment() exceeds threshold of 15.","complexity,java,payment"
+security,critical,2024-11-14,"Hardcoded AWS credentials found in config/database.yml. Access key AKIA*** exposed.","credentials,aws,config"
+security,high,2024-11-14,"Outdated dependency log4j 2.14.1 with known CVE-2021-44228 (Log4Shell) detected in pom.xml.","dependency,log4j,cve"
+deployment,low,2024-11-13,"Deployment pipeline took 45 minutes exceeding 30-minute SLA. Bottleneck in integration test stage.","pipeline,slow,integration-tests"
+backup,medium,2024-11-13,"Vault backup for production database completed with 3 warning: 2 tables skipped due to lock timeout.","backup,timeout,production"
+code_quality,low,2024-11-12,"Documentation coverage at 34% for api-gateway module. Below 60% threshold.","documentation,coverage,api-gateway"
+security,high,2024-11-12,"Cross-site scripting (XSS) vulnerability in search endpoint. User input rendered without sanitization.","xss,frontend,sanitization"

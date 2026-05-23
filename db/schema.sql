@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS insights (
     insight_date DATE NOT NULL,
     raw_text TEXT NOT NULL,
     tags TEXT[], --This represents the text array
-    embedding vector(1536),
+    embedding vector(768),
     created_at TIMESTAMP DEFAULT NOW()
 );
 

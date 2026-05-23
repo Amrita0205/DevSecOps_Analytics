@@ -12,8 +12,8 @@ def get_connection_params(): #This is the default values in case the .env doesn'
         "host":os.getenv("DB_HOST","localhost"),
         "port":os.getenv("DB_PORT","5432"),
         "dbname":os.getenv("DB_NAME","DevSecOps_Analytics"),
-        "user":os.getenv("DB_User","postgres"),
-        "password":os.getenv("DB_password","postgres"),
+        "user":os.getenv("DB_USER","postgres"),
+        "password":os.getenv("DB_PASSWORD","postgres"),
     }
 
 @contextmanager
